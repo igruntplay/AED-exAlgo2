@@ -38,8 +38,9 @@ class VectorDeInts implements SecuenciaDeInts {
     }
 
     public void quitarAtras() {
-        throw new UnsupportedOperationException("No implementada aun");
+            size--;
     }
+    
 
     public void modificarPosicion(int indice, int valor) {
         throw new UnsupportedOperationException("No implementada aun");
